@@ -1,12 +1,13 @@
 # Build files
 build
 dist
-*.egg-info/*
+*.egg-info/
 *.so
 *.la
 *.o
 *.py[doc]
 MANIFEST
+.tox
 
 # Cython generated files
 __pycache__
@@ -22,6 +23,13 @@ __pycache__
 
 # Coverage reports
 htmlcov/*
+.coverage
 
 # check_pylint_diff
 .pylint_cache
+
+# Temporary test data
+temp-testdata
+
+# venv
+venv
